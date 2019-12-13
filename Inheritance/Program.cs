@@ -134,7 +134,7 @@ namespace Inheritance
         public string Email;
         public void PrintEmploeeDetails()
         {
-            Console.WriteLine("First Name " + FirstName + " Last Name" + LastName + " Email" + Email);
+            Console.WriteLine("First Name is" + FirstName + " Last Name" + LastName + " Email" + Email);
         }
     }
     public class FullTimeEmployee : Employee
